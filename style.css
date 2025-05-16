@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5DC;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d29970;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.content-section, .gallery, .detail, .interactive-wall {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align:center ;
+    
+    
+
+    
+   
+}
+.galleri{
+    justify-items: center;
+}
+
+.featured-proverbs, .proverb-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+     justify-content: center;
+}
+
+.proverb-card {
+    background-color: #DAA520;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    width: calc(50% - 20px);
+    position: relative;width:400px; 
+    
+
+    
+}
+
+.proverb-card:hover {
+    transform: scale(1.05);
+    color: #F5F5DC;
+}
+div img{
+width: 100px; 
+display: flex;
+
+}
+
+.meaning {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.proverb-card:hover .meaning {
+    display: block;
+}
+.proverb-card img{
+    width:300px ;
+    height: 200px; 
+    border-radius: 5px;
+    border: #8B4513;
+    
+    
+}
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px ;
+    background-color: #8B4513;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+.footer{
+    margin: 40px; 
+    background-color: #666361;
+    color: white;
+    padding: 10px;
+    text-align: center
+    
+    
+    
+}
+
